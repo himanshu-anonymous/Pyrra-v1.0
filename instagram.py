@@ -1,4 +1,4 @@
-from sys import exit
+pfrom sys import exit
 from os.path import exists
 from lib.bruter import Bruter
 from lib.display import Display
@@ -115,6 +115,7 @@ def args():
 
 
 if __name__ == '__main__':
+ 
 
     if int(python_version()[0]) < 3:
         print('[!] Please use Python 3')
