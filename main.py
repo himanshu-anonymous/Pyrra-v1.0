@@ -26,12 +26,6 @@ except ImportError:
     from urllib2 import urlopen
 import argparse
 
-#color label
-#red: system output or error
-#blue: text 
-#white: user input and program launch time
-#green: program output
-
 
 
 username = getpass.getuser()
